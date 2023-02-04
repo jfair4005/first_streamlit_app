@@ -6,4 +6,4 @@ streamlit.text('🏋️‍♂️Tris for the guys')
 streamlit.text('💪Curls for the girls')
 streamlit.text('🍆Bonies for the homies')
 
-streamlit.header('✍️Build your own plan')
+streamlit.header('✍️🏃‍♂️Build your own plan🏐🏅')
