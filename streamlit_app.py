@@ -35,6 +35,10 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # outputs as a table
 streamlit.dataframe(fruityvice_normalized)
 
+import snowflake.connector
+
+
+
 
 
 streamlit.title('New Workout for 2023')
