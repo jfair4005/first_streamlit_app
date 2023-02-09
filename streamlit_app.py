@@ -72,32 +72,3 @@ if streamlit.button('Add a Fruit to the List'):
 streamlit.stop()
 
 
-
-
-fruit_choice = streamlit.text_input('What fruit would you like to add?')
-streamlit.write('Thanks for adding ', fruit_choice)
-
-
-
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
-
-
-
-
-
-
-#import snowflake.connector
-
-
-
-
-
-
-
-streamlit.title('New Workout for 2023')
-streamlit.header('🦍Get Big and Strong🦍')
-streamlit.text('🏋️‍♂️Tris for the guys')
-streamlit.text('💪Curls for the girls')
-streamlit.text('🍆Bonies for the homies')
-
-streamlit.header('✍️🏃‍♂️Build your own plan🏐🏅')
